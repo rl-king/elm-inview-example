@@ -117,18 +117,30 @@ view : Model -> Browser.Document Msg
 view model =
     { title = ""
     , body =
-        [ div [] (List.map (item model) images) ]
+        [ div []
+            [ h1
+                [ style "font-weight" "500"
+                , style "margin" "0 0 6rem"
+                , style "font-size" "2rem"
+                ]
+                [ text "elm-inview" ]
+            , div [] (List.map (item model) images)
+            , a [ href "https://github.com/rl-king/elm-inview" ]
+                [ text "Package repo" ]
+            , a [ href "https://github.com/rl-king/elm-inview-example" ]
+                [ text "Example repo" ]
+            , a [ href "http://www.esa.int/spaceinimages/Images" ]
+                [ text "Images by esa" ]
+            ]
+        ]
     }
 
 
 item : Model -> Image -> Html msg
 item model image =
     let
-        distance =
-            InView.centerDistance image.id model.inView
-
         ( opacity, scale ) =
-            case InView.inView image.id model.inView of
+            case InView.check image.id model.inView of
                 Just True ->
                     ( "1", "1" )
 
@@ -142,7 +154,6 @@ item model image =
         , id image.id
         ]
         [ viewImage image scale opacity
-        , viewDistance distance
         ]
 
 
@@ -156,17 +167,3 @@ viewImage image scale opacity =
         , style "transform" ("scale(" ++ scale ++ ")")
         ]
         []
-
-
-viewDistance : Maybe InView.CenterDistance -> Html msg
-viewDistance distance =
-    case distance of
-        Just { x, y } ->
-            div [ style "position" "absolute" ]
-                [ text (String.fromFloat x)
-                , text " / "
-                , text (String.fromFloat y)
-                ]
-
-        Nothing ->
-            text ""
