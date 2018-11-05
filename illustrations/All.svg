@@ -1,94 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="3192px" height="1479px" viewBox="0 0 3192 1479" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="600px" height="280px" viewBox="0 0 600 280" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
     <title>All</title>
     <desc>Created with Sketch.</desc>
     <g id="All" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <rect fill="#FFFFFF" x="0" y="0" width="3192" height="1479"></rect>
-        <g transform="translate(27.000000, 20.000000)">
-            <g id="content" transform="translate(40.000000, 23.000000)" fill-rule="nonzero">
-                <rect id="Rectangle" fill="#EAEAEA" x="0" y="0" width="150" height="225"></rect>
-                <rect id="Rectangle-Copy-7" fill="#FFE86B" x="80" y="664" width="150" height="225"></rect>
-                <rect id="Rectangle-Copy" fill="#EAEAEA" transform="translate(451.000000, 211.500000) rotate(-90.000000) translate(-451.000000, -211.500000) " x="376" y="99" width="150" height="225"></rect>
-                <rect id="Rectangle-Copy-2" fill="#FFE86B" transform="translate(165.000000, 418.500000) rotate(-90.000000) translate(-165.000000, -418.500000) " x="90" y="306" width="150" height="225"></rect>
-                <rect id="Rectangle-Copy-3" fill="#FFE86B" transform="translate(429.000000, 615.500000) rotate(-90.000000) translate(-429.000000, -615.500000) " x="354" y="503" width="150" height="225"></rect>
-                <rect id="Rectangle-Copy-10" fill="#EAEAEA" transform="translate(113.250000, 1076.000000) rotate(-90.000000) translate(-113.250000, -1076.000000) " x="38.25" y="963.5" width="150" height="225"></rect>
-                <rect id="Rectangle-Copy-9" fill="#FFE86B" x="371.75" y="777" width="150" height="225"></rect>
-                <rect id="Rectangle-Copy-6" fill="#EAEAEA" transform="translate(425.250000, 1277.000000) rotate(-90.000000) translate(-425.250000, -1277.000000) " x="350.25" y="1164.5" width="150" height="225"></rect>
+        <rect fill="#FFFFFF" x="0" y="0" width="600" height="280"></rect>
+        <g id="Group" transform="translate(20.000000, 11.000000)">
+            <g id="All">
+                <g id="content" transform="translate(7.114579, 4.105546)" fill-rule="nonzero">
+                    <rect id="Rectangle" fill="#EAEAEA" x="0" y="0" width="26.6796718" height="40.1629468"></rect>
+                    <rect id="Rectangle-Copy-7" fill="#FFE86B" x="14.2291583" y="118.525319" width="26.6796718" height="40.1629468"></rect>
+                    <polygon id="Rectangle-Copy" fill="#EAEAEA" transform="translate(80.216880, 37.753170) rotate(-90.000000) translate(-80.216880, -37.753170) " points="66.829231 17.7434161 93.6045289 17.7434161 93.6045289 57.7629239 66.829231 57.7629239"></polygon>
+                    <polygon id="Rectangle-Copy-2" fill="#FFE86B" transform="translate(29.347639, 74.703081) rotate(-90.000000) translate(-29.347639, -74.703081) " points="15.9599901 54.6933272 42.7352879 54.6933272 42.7352879 94.7128349 15.9599901 94.7128349"></polygon>
+                    <polygon id="Rectangle-Copy-3" fill="#FFE86B" transform="translate(76.303861, 109.867972) rotate(-90.000000) translate(-76.303861, -109.867972) " points="62.9162124 89.8582184 89.6915103 89.8582184 89.6915103 129.877726 62.9162124 129.877726"></polygon>
+                    <polygon id="Rectangle-Copy-10" fill="#EAEAEA" transform="translate(20.143152, 192.068137) rotate(-90.000000) translate(-20.143152, -192.068137) " points="6.75550328 172.058383 33.5308012 172.058383 33.5308012 212.077891 6.75550328 212.077891"></polygon>
+                    <rect id="Rectangle-Copy-9" fill="#FFE86B" x="66.12112" y="138.696043" width="26.6796718" height="40.1629468"></rect>
+                    <polygon id="Rectangle-Copy-6" fill="#EAEAEA" transform="translate(75.636870, 227.947036) rotate(-90.000000) translate(-75.636870, -227.947036) " points="62.2492206 207.937282 89.0245185 207.937282 89.0245185 247.95679 62.2492206 247.95679"></polygon>
+                </g>
+                <g id="frame">
+                    <polygon id="Path-Copy" stroke="#E5E5E5" stroke-width="2" points="0 0 113.833266 0 113.833266 257.04286 0 257.04286"></polygon>
+                    <polygon id="Path-Copy-2" stroke="#CCCCCC" stroke-width="10" fill-opacity="0" fill="#000000" points="0 85.5024512 113.833266 85.5024512 113.833266 153.658079 0 153.658079"></polygon>
+                    <polygon id="Path-Copy-3" stroke="#CCCCCC" stroke-width="10" fill="#CCCCCC" points="0 78.5408738 113.833266 78.5408738 113.833266 85.3560796 0 85.3560796"></polygon>
+                    <path d="M7.11457915,82.1109135 C7.11457915,83.0962444 6.31774628,83.8959333 5.33593436,83.8959333 C4.35412244,83.8959333 3.55728957,83.0962444 3.55728957,82.1109135 C3.55728957,81.1255825 4.35412244,80.3258936 5.33593436,80.3258936 C6.31774628,80.3258936 7.11457915,81.1255825 7.11457915,82.1109135 Z" id="Path-Copy-4" stroke-opacity="0" stroke="#000000" stroke-width="2" fill="#C92D39"></path>
+                    <path d="M12.4505135,82.1109135 C12.4505135,83.0962444 11.6536806,83.8959333 10.6718687,83.8959333 C9.6900568,83.8959333 8.89322394,83.0962444 8.89322394,82.1109135 C8.89322394,81.1255825 9.6900568,80.3258936 10.6718687,80.3258936 C11.6536806,80.3258936 12.4505135,81.1255825 12.4505135,82.1109135 Z" id="Path-Copy-5" stroke-opacity="0" stroke="#000000" stroke-width="2" fill="#FCC438"></path>
+                    <path d="M17.7864479,82.1109135 C17.7864479,83.0962444 16.989615,83.8959333 16.0078031,83.8959333 C15.0259912,83.8959333 14.2291583,83.0962444 14.2291583,82.1109135 C14.2291583,81.1255825 15.0259912,80.3258936 16.0078031,80.3258936 C16.989615,80.3258936 17.7864479,81.1255825 17.7864479,82.1109135 Z" id="Path-Copy-6" stroke-opacity="0" stroke="#000000" stroke-width="2" fill="#7AB648"></path>
+                </g>
             </g>
-            <g id="frame">
-                <polygon id="Path-Copy" stroke="#E5E5E5" stroke-width="2" points="0 0 640 0 640 1440 0 1440"></polygon>
-                <polygon id="Path-Copy-2" stroke="#CCCCCC" stroke-width="10" fill-opacity="0" fill="#000000" points="0 479 640 479 640 860.82 0 860.82"></polygon>
-                <polygon id="Path-Copy-3" stroke="#CCCCCC" stroke-width="10" fill="#CCCCCC" points="0 440 640 440 640 478.18 0 478.18"></polygon>
-                <path d="M40,460 C40,465.52 35.52,470 30,470 C24.48,470 20,465.52 20,460 C20,454.48 24.48,450 30,450 C35.52,450 40,454.48 40,460 Z" id="Path-Copy-4" stroke-opacity="0" stroke="#000000" stroke-width="2" fill="#C92D39"></path>
-                <path d="M70,460 C70,465.52 65.52,470 60,470 C54.48,470 50,465.52 50,460 C50,454.48 54.48,450 60,450 C65.52,450 70,454.48 70,460 Z" id="Path-Copy-5" stroke-opacity="0" stroke="#000000" stroke-width="2" fill="#FCC438"></path>
-                <path d="M100,460 C100,465.52 95.52,470 90,470 C84.48,470 80,465.52 80,460 C80,454.48 84.48,450 90,450 C95.52,450 100,454.48 100,460 Z" id="Path-Copy-6" stroke-opacity="0" stroke="#000000" stroke-width="2" fill="#7AB648"></path>
-                <path d="M620.5,628.33 L620.5,550" id="Path-Copy-7" stroke="#E5E5E5" stroke-width="10"></path>
+            <g id="All" transform="translate(445.234953, 0.000000)">
+                <g id="content" transform="translate(7.114579, 4.105546)" fill-rule="nonzero">
+                    <rect id="Rectangle" fill="#FFE86B" x="0" y="0" width="26.6796718" height="40.1629468"></rect>
+                    <rect id="Rectangle-Copy-7" fill="#FFE86B" x="14.2291583" y="118.525319" width="26.6796718" height="40.1629468"></rect>
+                    <rect id="Rectangle-Copy-8" fill="#EAEAEA" x="66.877044" y="139.767055" width="26.6796718" height="40.1629468"></rect>
+                    <polygon id="Rectangle-Copy" fill="#FFE86B" transform="translate(80.216880, 37.753170) rotate(-90.000000) translate(-80.216880, -37.753170) " points="66.829231 17.7434161 93.6045289 17.7434161 93.6045289 57.7629239 66.829231 57.7629239"></polygon>
+                    <polygon id="Rectangle-Copy-2" fill="#FFE86B" transform="translate(29.347639, 74.703081) rotate(-90.000000) translate(-29.347639, -74.703081) " points="15.9599901 54.6933272 42.7352879 54.6933272 42.7352879 94.7128349 15.9599901 94.7128349"></polygon>
+                    <polygon id="Rectangle-Copy-3" fill="#FFE86B" transform="translate(76.303861, 109.867972) rotate(-90.000000) translate(-76.303861, -109.867972) " points="62.9162124 89.8582184 89.6915103 89.8582184 89.6915103 129.877726 62.9162124 129.877726"></polygon>
+                    <polygon id="Rectangle-Copy-4" fill="#EAEAEA" transform="translate(76.392794, 229.196550) rotate(-90.000000) translate(-76.392794, -229.196550) " points="63.0051447 209.186796 89.7804426 209.186796 89.7804426 249.206304 63.0051447 249.206304"></polygon>
+                    <polygon id="Rectangle-Copy-5" fill="#EAEAEA" transform="translate(20.899076, 193.317651) rotate(-90.000000) translate(-20.899076, -193.317651) " points="7.51142731 173.307897 34.2867252 173.307897 34.2867252 213.327405 7.51142731 213.327405"></polygon>
+                </g>
+                <g id="frame">
+                    <polygon id="Path-Copy" stroke="#E5E5E5" stroke-width="2" points="0 0 113.833266 0 113.833266 257.04286 0 257.04286"></polygon>
+                    <polygon id="Path-Copy-2" stroke="#CCCCCC" stroke-width="10" fill-opacity="0" fill="#000000" points="0 85.5024512 113.833266 85.5024512 113.833266 153.658079 0 153.658079"></polygon>
+                    <polygon id="Path-Copy-3" stroke="#CCCCCC" stroke-width="10" fill="#CCCCCC" points="0 78.5408738 113.833266 78.5408738 113.833266 85.3560796 0 85.3560796"></polygon>
+                    <path d="M7.11457915,82.1109135 C7.11457915,83.0962444 6.31774628,83.8959333 5.33593436,83.8959333 C4.35412244,83.8959333 3.55728957,83.0962444 3.55728957,82.1109135 C3.55728957,81.1255825 4.35412244,80.3258936 5.33593436,80.3258936 C6.31774628,80.3258936 7.11457915,81.1255825 7.11457915,82.1109135 Z" id="Path-Copy-4" stroke-opacity="0" stroke="#000000" stroke-width="2" fill="#C92D39"></path>
+                    <path d="M12.4505135,82.1109135 C12.4505135,83.0962444 11.6536806,83.8959333 10.6718687,83.8959333 C9.6900568,83.8959333 8.89322394,83.0962444 8.89322394,82.1109135 C8.89322394,81.1255825 9.6900568,80.3258936 10.6718687,80.3258936 C11.6536806,80.3258936 12.4505135,81.1255825 12.4505135,82.1109135 Z" id="Path-Copy-5" stroke-opacity="0" stroke="#000000" stroke-width="2" fill="#FCC438"></path>
+                    <path d="M17.7864479,82.1109135 C17.7864479,83.0962444 16.989615,83.8959333 16.0078031,83.8959333 C15.0259912,83.8959333 14.2291583,83.0962444 14.2291583,82.1109135 C14.2291583,81.1255825 15.0259912,80.3258936 16.0078031,80.3258936 C16.989615,80.3258936 17.7864479,81.1255825 17.7864479,82.1109135 Z" id="Path-Copy-6" stroke-opacity="0" stroke="#000000" stroke-width="2" fill="#7AB648"></path>
+                    <path d="M0.889322394,86.3949611 L112.943944,86.3949611 L112.943944,152.7977 L0.889322394,152.7977 L0.889322394,86.3949611 Z M3.73515405,98.8901002 L3.73515405,140.302561 L109.20879,140.302561 L109.20879,98.8901002 L3.73515405,98.8901002 Z" id="Combined-Shape-Copy" fill-opacity="0.391813859" fill="#FF0000" fill-rule="nonzero"></path>
+                </g>
             </g>
-        </g>
-        <g transform="translate(2518.000000, 20.000000)">
-            <g id="content" transform="translate(40.000000, 23.000000)" fill-rule="nonzero">
-                <rect id="Rectangle" fill="#FFE86B" x="0" y="0" width="150" height="225"></rect>
-                <rect id="Rectangle-Copy-7" fill="#FFE86B" x="80" y="664" width="150" height="225"></rect>
-                <rect id="Rectangle-Copy-8" fill="#EAEAEA" x="376" y="783" width="150" height="225"></rect>
-                <rect id="Rectangle-Copy" fill="#FFE86B" transform="translate(451.000000, 211.500000) rotate(-90.000000) translate(-451.000000, -211.500000) " x="376" y="99" width="150" height="225"></rect>
-                <rect id="Rectangle-Copy-2" fill="#FFE86B" transform="translate(165.000000, 418.500000) rotate(-90.000000) translate(-165.000000, -418.500000) " x="90" y="306" width="150" height="225"></rect>
-                <rect id="Rectangle-Copy-3" fill="#FFE86B" transform="translate(429.000000, 615.500000) rotate(-90.000000) translate(-429.000000, -615.500000) " x="354" y="503" width="150" height="225"></rect>
-                <rect id="Rectangle-Copy-4" fill="#EAEAEA" transform="translate(429.500000, 1284.000000) rotate(-90.000000) translate(-429.500000, -1284.000000) " x="354.5" y="1171.5" width="150" height="225"></rect>
-                <rect id="Rectangle-Copy-5" fill="#EAEAEA" transform="translate(117.500000, 1083.000000) rotate(-90.000000) translate(-117.500000, -1083.000000) " x="42.5" y="970.5" width="150" height="225"></rect>
+            <g id="All" transform="translate(296.517299, 0.000000)">
+                <g id="content" transform="translate(7.114579, 4.105546)" fill-rule="nonzero">
+                    <rect id="Rectangle" fill="#FFE86B" x="0" y="0" width="26.6796718" height="40.1629468"></rect>
+                    <rect id="Rectangle-Copy-7" fill="#FFE86B" x="14.2291583" y="118.525319" width="26.6796718" height="40.1629468"></rect>
+                    <polygon id="Rectangle-Copy" fill="#FFE86B" transform="translate(80.216880, 37.753170) rotate(-90.000000) translate(-80.216880, -37.753170) " points="66.829231 17.7434161 93.6045289 17.7434161 93.6045289 57.7629239 66.829231 57.7629239"></polygon>
+                    <polygon id="Rectangle-Copy-2" fill="#FFE86B" transform="translate(29.347639, 74.703081) rotate(-90.000000) translate(-29.347639, -74.703081) " points="15.9599901 54.6933272 42.7352879 54.6933272 42.7352879 94.7128349 15.9599901 94.7128349"></polygon>
+                    <polygon id="Rectangle-Copy-3" fill="#FFE86B" transform="translate(76.303861, 109.867972) rotate(-90.000000) translate(-76.303861, -109.867972) " points="62.9162124 89.8582184 89.6915103 89.8582184 89.6915103 129.877726 62.9162124 129.877726"></polygon>
+                    <rect id="Rectangle-Copy-9" fill="#FFE86B" x="66.1655861" y="138.696043" width="26.6796718" height="40.1629468"></rect>
+                    <polygon id="Rectangle-Copy-6" fill="#EAEAEA" transform="translate(75.636870, 227.947036) rotate(-90.000000) translate(-75.636870, -227.947036) " points="62.2492206 207.937282 89.0245185 207.937282 89.0245185 247.95679 62.2492206 247.95679"></polygon>
+                    <polygon id="Rectangle-Copy-10" fill="#EAEAEA" transform="translate(20.143152, 192.068137) rotate(-90.000000) translate(-20.143152, -192.068137) " points="6.75550328 172.058383 33.5308012 172.058383 33.5308012 212.077891 6.75550328 212.077891"></polygon>
+                </g>
+                <g id="frame">
+                    <polygon id="Path-Copy" stroke="#E5E5E5" stroke-width="2" points="0 0 113.833266 0 113.833266 257.04286 0 257.04286"></polygon>
+                    <polygon id="Path-Copy-2" stroke="#CCCCCC" stroke-width="10" fill-opacity="0" fill="#000000" points="0 85.5024512 113.833266 85.5024512 113.833266 153.658079 0 153.658079"></polygon>
+                    <polygon id="Path-Copy-3" stroke="#CCCCCC" stroke-width="10" fill="#CCCCCC" points="0 78.5408738 113.833266 78.5408738 113.833266 85.3560796 0 85.3560796"></polygon>
+                    <path d="M7.11457915,82.1109135 C7.11457915,83.0962444 6.31774628,83.8959333 5.33593436,83.8959333 C4.35412244,83.8959333 3.55728957,83.0962444 3.55728957,82.1109135 C3.55728957,81.1255825 4.35412244,80.3258936 5.33593436,80.3258936 C6.31774628,80.3258936 7.11457915,81.1255825 7.11457915,82.1109135 Z" id="Path-Copy-4" stroke-opacity="0" stroke="#000000" stroke-width="2" fill="#C92D39"></path>
+                    <path d="M12.4505135,82.1109135 C12.4505135,83.0962444 11.6536806,83.8959333 10.6718687,83.8959333 C9.6900568,83.8959333 8.89322394,83.0962444 8.89322394,82.1109135 C8.89322394,81.1255825 9.6900568,80.3258936 10.6718687,80.3258936 C11.6536806,80.3258936 12.4505135,81.1255825 12.4505135,82.1109135 Z" id="Path-Copy-5" stroke-opacity="0" stroke="#000000" stroke-width="2" fill="#FCC438"></path>
+                    <path d="M17.7864479,82.1109135 C17.7864479,83.0962444 16.989615,83.8959333 16.0078031,83.8959333 C15.0259912,83.8959333 14.2291583,83.0962444 14.2291583,82.1109135 C14.2291583,81.1255825 15.0259912,80.3258936 16.0078031,80.3258936 C16.989615,80.3258936 17.7864479,81.1255825 17.7864479,82.1109135 Z" id="Path-Copy-6" stroke-opacity="0" stroke="#000000" stroke-width="2" fill="#7AB648"></path>
+                </g>
             </g>
-            <g id="frame">
-                <polygon id="Path-Copy" stroke="#E5E5E5" stroke-width="2" points="0 0 640 0 640 1440 0 1440"></polygon>
-                <polygon id="Path-Copy-2" stroke="#CCCCCC" stroke-width="10" fill-opacity="0" fill="#000000" points="0 479 640 479 640 860.82 0 860.82"></polygon>
-                <polygon id="Path-Copy-3" stroke="#CCCCCC" stroke-width="10" fill="#CCCCCC" points="0 440 640 440 640 478.18 0 478.18"></polygon>
-                <path d="M40,460 C40,465.52 35.52,470 30,470 C24.48,470 20,465.52 20,460 C20,454.48 24.48,450 30,450 C35.52,450 40,454.48 40,460 Z" id="Path-Copy-4" stroke-opacity="0" stroke="#000000" stroke-width="2" fill="#C92D39"></path>
-                <path d="M70,460 C70,465.52 65.52,470 60,470 C54.48,470 50,465.52 50,460 C50,454.48 54.48,450 60,450 C65.52,450 70,454.48 70,460 Z" id="Path-Copy-5" stroke-opacity="0" stroke="#000000" stroke-width="2" fill="#FCC438"></path>
-                <path d="M100,460 C100,465.52 95.52,470 90,470 C84.48,470 80,465.52 80,460 C80,454.48 84.48,450 90,450 C95.52,450 100,454.48 100,460 Z" id="Path-Copy-6" stroke-opacity="0" stroke="#000000" stroke-width="2" fill="#7AB648"></path>
-                <path d="M620.5,628.33 L620.5,550" id="Path-Copy-7" stroke="#E5E5E5" stroke-width="10"></path>
-                <path d="M5,484 L635,484 L635,856 L5,856 L5,484 Z M21,554 L21,786 L614,786 L614,554 L21,554 Z" id="Combined-Shape-Copy" fill-opacity="0.391813859" fill="#FF0000" fill-rule="nonzero"></path>
-            </g>
-        </g>
-        <g transform="translate(1688.000000, 20.000000)">
-            <g id="content" transform="translate(40.000000, 23.000000)" fill-rule="nonzero">
-                <rect id="Rectangle" fill="#FFE86B" x="0" y="0" width="150" height="225"></rect>
-                <rect id="Rectangle-Copy-7" fill="#FFE86B" x="80" y="664" width="150" height="225"></rect>
-                <rect id="Rectangle-Copy" fill="#FFE86B" transform="translate(451.000000, 211.500000) rotate(-90.000000) translate(-451.000000, -211.500000) " x="376" y="99" width="150" height="225"></rect>
-                <rect id="Rectangle-Copy-2" fill="#FFE86B" transform="translate(165.000000, 418.500000) rotate(-90.000000) translate(-165.000000, -418.500000) " x="90" y="306" width="150" height="225"></rect>
-                <rect id="Rectangle-Copy-3" fill="#FFE86B" transform="translate(429.000000, 615.500000) rotate(-90.000000) translate(-429.000000, -615.500000) " x="354" y="503" width="150" height="225"></rect>
-                <rect id="Rectangle-Copy-9" fill="#FFE86B" x="372" y="777" width="150" height="225"></rect>
-                <rect id="Rectangle-Copy-6" fill="#EAEAEA" transform="translate(425.250000, 1277.000000) rotate(-90.000000) translate(-425.250000, -1277.000000) " x="350.25" y="1164.5" width="150" height="225"></rect>
-                <rect id="Rectangle-Copy-10" fill="#EAEAEA" transform="translate(113.250000, 1076.000000) rotate(-90.000000) translate(-113.250000, -1076.000000) " x="38.25" y="963.5" width="150" height="225"></rect>
-            </g>
-            <g id="frame">
-                <polygon id="Path-Copy" stroke="#E5E5E5" stroke-width="2" points="0 0 640 0 640 1440 0 1440"></polygon>
-                <polygon id="Path-Copy-2" stroke="#CCCCCC" stroke-width="10" fill-opacity="0" fill="#000000" points="0 479 640 479 640 860.82 0 860.82"></polygon>
-                <polygon id="Path-Copy-3" stroke="#CCCCCC" stroke-width="10" fill="#CCCCCC" points="0 440 640 440 640 478.18 0 478.18"></polygon>
-                <path d="M40,460 C40,465.52 35.52,470 30,470 C24.48,470 20,465.52 20,460 C20,454.48 24.48,450 30,450 C35.52,450 40,454.48 40,460 Z" id="Path-Copy-4" stroke-opacity="0" stroke="#000000" stroke-width="2" fill="#C92D39"></path>
-                <path d="M70,460 C70,465.52 65.52,470 60,470 C54.48,470 50,465.52 50,460 C50,454.48 54.48,450 60,450 C65.52,450 70,454.48 70,460 Z" id="Path-Copy-5" stroke-opacity="0" stroke="#000000" stroke-width="2" fill="#FCC438"></path>
-                <path d="M100,460 C100,465.52 95.52,470 90,470 C84.48,470 80,465.52 80,460 C80,454.48 84.48,450 90,450 C95.52,450 100,454.48 100,460 Z" id="Path-Copy-6" stroke-opacity="0" stroke="#000000" stroke-width="2" fill="#7AB648"></path>
-                <path d="M620.5,628.33 L620.5,550" id="Path-Copy-7" stroke="#E5E5E5" stroke-width="10"></path>
-            </g>
-        </g>
-        <g transform="translate(857.000000, 20.000000)">
-            <g id="content" transform="translate(40.000000, 23.000000)" fill-rule="nonzero">
-                <rect id="Rectangle" fill="#EAEAEA" x="0" y="0" width="150" height="225"></rect>
-                <rect id="Rectangle-Copy-7" fill="#FFE86B" x="80" y="664" width="150" height="225"></rect>
-                <rect id="Rectangle-Copy" fill="#EAEAEA" transform="translate(451.000000, 211.500000) rotate(-90.000000) translate(-451.000000, -211.500000) " x="376" y="99" width="150" height="225"></rect>
-                <rect id="Rectangle-Copy-2" fill="#EAEAEA" transform="translate(165.000000, 418.500000) rotate(-90.000000) translate(-165.000000, -418.500000) " x="90" y="306" width="150" height="225"></rect>
-                <rect id="Rectangle-Copy-3" fill="#FFE86B" transform="translate(429.000000, 615.500000) rotate(-90.000000) translate(-429.000000, -615.500000) " x="354" y="503" width="150" height="225"></rect>
-                <rect id="Rectangle-Copy-10" fill="#EAEAEA" transform="translate(113.250000, 1076.000000) rotate(-90.000000) translate(-113.250000, -1076.000000) " x="38.25" y="963.5" width="150" height="225"></rect>
-                <rect id="Rectangle-Copy-9" fill="#EAEAEA" x="371.75" y="777" width="150" height="225"></rect>
-                <rect id="Rectangle-Copy-6" fill="#EAEAEA" transform="translate(425.250000, 1277.000000) rotate(-90.000000) translate(-425.250000, -1277.000000) " x="350.25" y="1164.5" width="150" height="225"></rect>
-            </g>
-            <g id="frame">
-                <polygon id="Path-Copy" stroke="#E5E5E5" stroke-width="2" points="0 0 640 0 640 1440 0 1440"></polygon>
-                <polygon id="Path-Copy-2" stroke="#CCCCCC" stroke-width="10" fill-opacity="0" fill="#000000" points="0 479 640 479 640 860.82 0 860.82"></polygon>
-                <polygon id="Path-Copy-3" stroke="#CCCCCC" stroke-width="10" fill="#CCCCCC" points="0 440 640 440 640 478.18 0 478.18"></polygon>
-                <path d="M40,460 C40,465.52 35.52,470 30,470 C24.48,470 20,465.52 20,460 C20,454.48 24.48,450 30,450 C35.52,450 40,454.48 40,460 Z" id="Path-Copy-4" stroke-opacity="0" stroke="#000000" stroke-width="2" fill="#C92D39"></path>
-                <path d="M70,460 C70,465.52 65.52,470 60,470 C54.48,470 50,465.52 50,460 C50,454.48 54.48,450 60,450 C65.52,450 70,454.48 70,460 Z" id="Path-Copy-5" stroke-opacity="0" stroke="#000000" stroke-width="2" fill="#FCC438"></path>
-                <path d="M100,460 C100,465.52 95.52,470 90,470 C84.48,470 80,465.52 80,460 C80,454.48 84.48,450 90,450 C95.52,450 100,454.48 100,460 Z" id="Path-Copy-6" stroke-opacity="0" stroke="#000000" stroke-width="2" fill="#7AB648"></path>
-                <path d="M620.5,628.33 L620.5,550" id="Path-Copy-7" stroke="#E5E5E5" stroke-width="10"></path>
-                <path d="M5,484 L635,484 L635,856 L5,856 L5,484 Z M21,554 L21,786 L614,786 L614,554 L21,554 Z" id="Combined-Shape" fill-opacity="0.391813859" fill="#FF0000" fill-rule="nonzero"></path>
+            <g id="All" transform="translate(148.717654, 0.000000)">
+                <g id="content" transform="translate(7.114579, 4.105546)" fill-rule="nonzero">
+                    <rect id="Rectangle" fill="#EAEAEA" x="0" y="0" width="26.6796718" height="40.1629468"></rect>
+                    <rect id="Rectangle-Copy-7" fill="#FFE86B" x="14.2291583" y="118.525319" width="26.6796718" height="40.1629468"></rect>
+                    <polygon id="Rectangle-Copy" fill="#EAEAEA" transform="translate(80.216880, 37.753170) rotate(-90.000000) translate(-80.216880, -37.753170) " points="66.829231 17.7434161 93.6045289 17.7434161 93.6045289 57.7629239 66.829231 57.7629239"></polygon>
+                    <polygon id="Rectangle-Copy-2" fill="#EAEAEA" transform="translate(29.347639, 74.703081) rotate(-90.000000) translate(-29.347639, -74.703081) " points="15.9599901 54.6933272 42.7352879 54.6933272 42.7352879 94.7128349 15.9599901 94.7128349"></polygon>
+                    <polygon id="Rectangle-Copy-3" fill="#FFE86B" transform="translate(76.303861, 109.867972) rotate(-90.000000) translate(-76.303861, -109.867972) " points="62.9162124 89.8582184 89.6915103 89.8582184 89.6915103 129.877726 62.9162124 129.877726"></polygon>
+                    <polygon id="Rectangle-Copy-10" fill="#EAEAEA" transform="translate(20.143152, 192.068137) rotate(-90.000000) translate(-20.143152, -192.068137) " points="6.75550328 172.058383 33.5308012 172.058383 33.5308012 212.077891 6.75550328 212.077891"></polygon>
+                    <rect id="Rectangle-Copy-9" fill="#EAEAEA" x="66.12112" y="138.696043" width="26.6796718" height="40.1629468"></rect>
+                    <polygon id="Rectangle-Copy-6" fill="#EAEAEA" transform="translate(75.636870, 227.947036) rotate(-90.000000) translate(-75.636870, -227.947036) " points="62.2492206 207.937282 89.0245185 207.937282 89.0245185 247.95679 62.2492206 247.95679"></polygon>
+                </g>
+                <g id="frame">
+                    <polygon id="Path-Copy" stroke="#E5E5E5" stroke-width="2" points="0 0 113.833266 0 113.833266 257.04286 0 257.04286"></polygon>
+                    <polygon id="Path-Copy-2" stroke="#CCCCCC" stroke-width="10" fill-opacity="0" fill="#000000" points="0 85.5024512 113.833266 85.5024512 113.833266 153.658079 0 153.658079"></polygon>
+                    <polygon id="Path-Copy-3" stroke="#CCCCCC" stroke-width="10" fill="#CCCCCC" points="0 78.5408738 113.833266 78.5408738 113.833266 85.3560796 0 85.3560796"></polygon>
+                    <path d="M7.11457915,82.1109135 C7.11457915,83.0962444 6.31774628,83.8959333 5.33593436,83.8959333 C4.35412244,83.8959333 3.55728957,83.0962444 3.55728957,82.1109135 C3.55728957,81.1255825 4.35412244,80.3258936 5.33593436,80.3258936 C6.31774628,80.3258936 7.11457915,81.1255825 7.11457915,82.1109135 Z" id="Path-Copy-4" stroke-opacity="0" stroke="#000000" stroke-width="2" fill="#C92D39"></path>
+                    <path d="M12.4505135,82.1109135 C12.4505135,83.0962444 11.6536806,83.8959333 10.6718687,83.8959333 C9.6900568,83.8959333 8.89322394,83.0962444 8.89322394,82.1109135 C8.89322394,81.1255825 9.6900568,80.3258936 10.6718687,80.3258936 C11.6536806,80.3258936 12.4505135,81.1255825 12.4505135,82.1109135 Z" id="Path-Copy-5" stroke-opacity="0" stroke="#000000" stroke-width="2" fill="#FCC438"></path>
+                    <path d="M17.7864479,82.1109135 C17.7864479,83.0962444 16.989615,83.8959333 16.0078031,83.8959333 C15.0259912,83.8959333 14.2291583,83.0962444 14.2291583,82.1109135 C14.2291583,81.1255825 15.0259912,80.3258936 16.0078031,80.3258936 C16.989615,80.3258936 17.7864479,81.1255825 17.7864479,82.1109135 Z" id="Path-Copy-6" stroke-opacity="0" stroke="#000000" stroke-width="2" fill="#7AB648"></path>
+                    <path d="M0.889322394,86.3949611 L112.943944,86.3949611 L112.943944,152.7977 L0.889322394,152.7977 L0.889322394,86.3949611 Z M3.73515405,98.8901002 L3.73515405,140.302561 L109.20879,140.302561 L109.20879,98.8901002 L3.73515405,98.8901002 Z" id="Combined-Shape" fill-opacity="0.391813859" fill="#FF0000" fill-rule="nonzero"></path>
+                </g>
             </g>
         </g>
     </g>
