@@ -151,6 +151,7 @@ item model image =
         [ style "margin-bottom" "10rem"
         , style "margin-left" (String.fromInt image.margin ++ "%")
         , style "width" "45%"
+        , style "height" "40vh"
         , id image.id
         ]
         [ viewImage image scale opacity
@@ -159,10 +160,12 @@ item model image =
 
 viewImage : Image -> String -> String -> Html msg
 viewImage image scale opacity =
-    img
-        [ src image.url
+    div
+        [ style "background-image" ("url(" ++ image.url ++ ")")
         , style "opacity" opacity
+        , style "background-size" "cover"
         , style "width" "100%"
+        , style "height" "100%"
         , style "transition" "opacity 1s , transform .5s"
         , style "transform" ("scale(" ++ scale ++ ")")
         ]

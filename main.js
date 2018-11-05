@@ -6106,7 +6106,25 @@ var author$project$Main$update = F2(
 				A2(elm$core$Platform$Cmd$map, author$project$Main$InViewMsg, inViewCmds));
 		}
 	});
-var elm$html$Html$img = _VirtualDom_node('img');
+var elm$html$Html$div = _VirtualDom_node('div');
+var elm$virtual_dom$VirtualDom$style = _VirtualDom_style;
+var elm$html$Html$Attributes$style = elm$virtual_dom$VirtualDom$style;
+var author$project$Main$viewImage = F3(
+	function (image, scale, opacity) {
+		return A2(
+			elm$html$Html$div,
+			_List_fromArray(
+				[
+					A2(elm$html$Html$Attributes$style, 'background-image', 'url(' + (image.url + ')')),
+					A2(elm$html$Html$Attributes$style, 'opacity', opacity),
+					A2(elm$html$Html$Attributes$style, 'background-size', 'cover'),
+					A2(elm$html$Html$Attributes$style, 'width', '100%'),
+					A2(elm$html$Html$Attributes$style, 'height', '100%'),
+					A2(elm$html$Html$Attributes$style, 'transition', 'opacity 1s , transform .5s'),
+					A2(elm$html$Html$Attributes$style, 'transform', 'scale(' + (scale + ')'))
+				]),
+			_List_Nil);
+	});
 var elm$json$Json$Encode$string = _Json_wrap;
 var elm$html$Html$Attributes$stringProperty = F2(
 	function (key, string) {
@@ -6115,29 +6133,6 @@ var elm$html$Html$Attributes$stringProperty = F2(
 			key,
 			elm$json$Json$Encode$string(string));
 	});
-var elm$html$Html$Attributes$src = function (url) {
-	return A2(
-		elm$html$Html$Attributes$stringProperty,
-		'src',
-		_VirtualDom_noJavaScriptOrHtmlUri(url));
-};
-var elm$virtual_dom$VirtualDom$style = _VirtualDom_style;
-var elm$html$Html$Attributes$style = elm$virtual_dom$VirtualDom$style;
-var author$project$Main$viewImage = F3(
-	function (image, scale, opacity) {
-		return A2(
-			elm$html$Html$img,
-			_List_fromArray(
-				[
-					elm$html$Html$Attributes$src(image.url),
-					A2(elm$html$Html$Attributes$style, 'opacity', opacity),
-					A2(elm$html$Html$Attributes$style, 'width', '100%'),
-					A2(elm$html$Html$Attributes$style, 'transition', 'opacity 1s , transform .5s'),
-					A2(elm$html$Html$Attributes$style, 'transform', 'scale(' + (scale + ')'))
-				]),
-			_List_Nil);
-	});
-var elm$html$Html$div = _VirtualDom_node('div');
 var elm$html$Html$Attributes$id = elm$html$Html$Attributes$stringProperty('id');
 var elm$core$Dict$get = F2(
 	function (targetKey, dict) {
@@ -6218,6 +6213,7 @@ var author$project$Main$item = F2(
 					'margin-left',
 					elm$core$String$fromInt(image.margin) + '%'),
 					A2(elm$html$Html$Attributes$style, 'width', '45%'),
+					A2(elm$html$Html$Attributes$style, 'height', '40vh'),
 					elm$html$Html$Attributes$id(image.id)
 				]),
 			_List_fromArray(
