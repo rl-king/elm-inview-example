@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1300px" height="1479px" viewBox="0 0 1300 1479" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>centerDistance</title>
+    <desc>Created with Sketch.</desc>
+    <g id="centerDistance" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#FFFFFF" x="0" y="0" width="1300" height="1479"></rect>
+        <g id="content" transform="translate(335.000000, 43.000000)">
+            <rect id="Rectangle" fill="#FFE86B" fill-rule="nonzero" x="35" y="0" width="150" height="225"></rect>
+            <rect id="Rectangle-Copy-7" fill="#FFE86B" fill-rule="nonzero" x="115" y="664" width="150" height="225"></rect>
+            <rect id="Rectangle-Copy-8" fill="#FFE86B" fill-rule="nonzero" x="411" y="783" width="150" height="225"></rect>
+            <rect id="Rectangle-Copy" fill="#FFE86B" fill-rule="nonzero" transform="translate(486.000000, 211.500000) rotate(-90.000000) translate(-486.000000, -211.500000) " x="411" y="99" width="150" height="225"></rect>
+            <rect id="Rectangle-Copy-2" fill="#FFE86B" fill-rule="nonzero" transform="translate(200.000000, 418.500000) rotate(-90.000000) translate(-200.000000, -418.500000) " x="125" y="306" width="150" height="225"></rect>
+            <rect id="Rectangle-Copy-3" fill="#FFE86B" fill-rule="nonzero" transform="translate(464.000000, 615.500000) rotate(-90.000000) translate(-464.000000, -615.500000) " x="389" y="503" width="150" height="225"></rect>
+            <rect id="Rectangle-Copy-4" fill="#EAEAEA" fill-rule="nonzero" transform="translate(464.500000, 1284.000000) rotate(-90.000000) translate(-464.500000, -1284.000000) " x="389.5" y="1171.5" width="150" height="225"></rect>
+            <rect id="Rectangle-Copy-5" fill="#EAEAEA" fill-rule="nonzero" transform="translate(152.500000, 1083.000000) rotate(-90.000000) translate(-152.500000, -1083.000000) " x="77.5" y="970.5" width="150" height="225"></rect>
+            <rect id="Rectangle" fill="#DEDEDE" fill-rule="nonzero" x="0" y="646" width="630" height="1"></rect>
+            <rect id="Rectangle" fill="#4A90E2" fill-rule="nonzero" x="189" y="647" width="2" height="130"></rect>
+            <rect id="Rectangle-Copy-6" fill="#4A90E2" fill-rule="nonzero" transform="translate(252.000000, 778.000000) scale(1, -1) translate(-252.000000, -778.000000) " x="189" y="777" width="126" height="2"></rect>
+            <rect id="Rectangle" fill="#DEDEDE" fill-rule="nonzero" transform="translate(315.500000, 647.000000) scale(1, -1) translate(-315.500000, -647.000000) " x="315" y="461" width="1" height="372"></rect>
+            <g id="Group" transform="translate(176.000000, 699.000000)">
+                <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" cx="14" cy="14" r="14"></circle>
+                <text id="y" font-family="SourceCodePro-Regular, Source Code Pro" font-size="16" font-weight="normal" fill="#000000">
+                    <tspan x="9" y="17">y</tspan>
+                </text>
+            </g>
+            <g id="Group-Copy" transform="translate(238.000000, 763.000000)">
+                <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" cx="14" cy="14" r="14"></circle>
+                <text id="x" font-family="SourceCodePro-Regular, Source Code Pro" font-size="16" font-weight="normal" fill="#000000">
+                    <tspan x="9" y="18">x</tspan>
+                </text>
+            </g>
+        </g>
+        <g id="frame" transform="translate(330.000000, 20.000000)">
+            <polygon id="Path-Copy" stroke="#E5E5E5" stroke-width="2" points="0 0 640 0 640 1440 0 1440"></polygon>
+            <polygon id="Path-Copy-2" stroke="#CCCCCC" stroke-width="10" fill-opacity="0" fill="#000000" points="0 479 640 479 640 860.82 0 860.82"></polygon>
+            <polygon id="Path-Copy-3" stroke="#CCCCCC" stroke-width="10" fill="#CCCCCC" points="0 440 640 440 640 478.18 0 478.18"></polygon>
+            <path d="M40,460 C40,465.52 35.52,470 30,470 C24.48,470 20,465.52 20,460 C20,454.48 24.48,450 30,450 C35.52,450 40,454.48 40,460 Z" id="Path-Copy-4" stroke-opacity="0" stroke="#000000" stroke-width="2" fill="#C92D39"></path>
+            <path d="M70,460 C70,465.52 65.52,470 60,470 C54.48,470 50,465.52 50,460 C50,454.48 54.48,450 60,450 C65.52,450 70,454.48 70,460 Z" id="Path-Copy-5" stroke-opacity="0" stroke="#000000" stroke-width="2" fill="#FCC438"></path>
+            <path d="M100,460 C100,465.52 95.52,470 90,470 C84.48,470 80,465.52 80,460 C80,454.48 84.48,450 90,450 C95.52,450 100,454.48 100,460 Z" id="Path-Copy-6" stroke-opacity="0" stroke="#000000" stroke-width="2" fill="#7AB648"></path>
+            <path d="M620.5,628.33 L620.5,550" id="Path-Copy-7" stroke="#E5E5E5" stroke-width="10"></path>
+        </g>
+    </g>
+</svg>
