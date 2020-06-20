@@ -5,6 +5,7 @@ import Browser.Dom as Dom
 import Dict exposing (Dict)
 import Html exposing (..)
 import Html.Attributes as A exposing (..)
+import Html.Lazy
 import InView
 import Task
 
@@ -13,7 +14,7 @@ import Task
 -- PORT
 
 
-port onScroll : (( Float, Float ) -> msg) -> Sub msg
+port onScroll : ({ x : Float, y : Float } -> msg) -> Sub msg
 
 
 
@@ -33,8 +34,7 @@ main =
 subscriptions : Model -> Sub Msg
 subscriptions model =
     Sub.batch
-        [ Sub.map InViewMsg <|
-            InView.subscriptions model.inView
+        [ InView.subscriptions InViewMsg model.inView
         , onScroll OnScroll
         ]
 
@@ -52,10 +52,10 @@ init : flags -> ( Model, Cmd Msg )
 init _ =
     let
         ( inViewModel, inViewCmds ) =
-            InView.init (List.map .id images)
+            InView.init InViewMsg (List.map .id images)
     in
     ( { inView = inViewModel }
-    , Cmd.map InViewMsg inViewCmds
+    , inViewCmds
     )
 
 
@@ -91,25 +91,25 @@ images =
 
 
 type Msg
-    = OnScroll ( Float, Float )
+    = OnScroll { x : Float, y : Float }
     | InViewMsg InView.Msg
 
 
 update : Msg -> Model -> ( Model, Cmd Msg )
 update msg model =
     case msg of
-        OnScroll ( x, y ) ->
-            ( { model | inView = InView.updateViewportOffset x y model.inView }
+        OnScroll offset ->
+            ( { model | inView = InView.updateViewportOffset offset model.inView }
             , Cmd.none
             )
 
         InViewMsg inViewMsg ->
             let
                 ( inView, inViewCmds ) =
-                    InView.update inViewMsg model.inView
+                    InView.update InViewMsg inViewMsg model.inView
             in
             ( { model | inView = inView }
-            , Cmd.map InViewMsg inViewCmds
+            , inViewCmds
             )
 
 
@@ -124,7 +124,8 @@ view model =
                 , style "font-size" "2rem"
                 ]
                 [ text "elm-inview" ]
-            , div [] (List.map (item model) images)
+            , div [] <|
+                List.map (item model.inView) images
             , a [ href "https://github.com/rl-king/elm-inview" ]
                 [ text "Package repo" ]
             , a [ href "https://github.com/rl-king/elm-inview-example" ]
@@ -136,11 +137,11 @@ view model =
     }
 
 
-item : Model -> Image -> Html msg
-item model image =
+item : InView.State -> Image -> Html msg
+item state image =
     let
         ( opacity, scale ) =
-            case InView.check image.id model.inView of
+            case InView.isInViewWithMargin image.id (InView.Margin 200 0 100 0) state of
                 Just True ->
                     ( "1", "1" )
 

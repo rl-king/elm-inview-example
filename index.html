@@ -27,7 +27,7 @@
          var app = Elm.Main.init({node: node});
 
          window.addEventListener("scroll", () => {
-             app.ports.onScroll.send([window.scrollX, window.scrollY]);
+             app.ports.onScroll.send({x: window.scrollX, y: window.scrollY});
          });
         </script>
     </body>
