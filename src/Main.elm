@@ -5,8 +5,10 @@ import Browser.Dom as Dom
 import Dict exposing (Dict)
 import Html exposing (..)
 import Html.Attributes as A exposing (..)
+import Html.Events exposing (..)
 import Html.Lazy
 import InView
+import Json.Decode as Decode
 import Task
 
 
@@ -93,6 +95,7 @@ images =
 type Msg
     = OnScroll { x : Float, y : Float }
     | InViewMsg InView.Msg
+    | OnImageLoad String
 
 
 update : Msg -> Model -> ( Model, Cmd Msg )
@@ -107,6 +110,15 @@ update msg model =
             let
                 ( inView, inViewCmds ) =
                     InView.update InViewMsg inViewMsg model.inView
+            in
+            ( { model | inView = inView }
+            , inViewCmds
+            )
+
+        OnImageLoad id ->
+            let
+                ( inView, inViewCmds ) =
+                    InView.addElements InViewMsg [ id ] model.inView
             in
             ( { model | inView = inView }
             , inViewCmds
@@ -137,7 +149,7 @@ view model =
     }
 
 
-item : InView.State -> Image -> Html msg
+item : InView.State -> Image -> Html Msg
 item state image =
     let
         ( opacity, scale ) =
@@ -151,22 +163,21 @@ item state image =
     div
         [ style "margin-bottom" "10rem"
         , style "margin-left" (String.fromInt image.margin ++ "%")
-        , style "width" "45%"
-        , style "height" "40vh"
         , id image.id
         ]
         [ viewImage image scale opacity
         ]
 
 
-viewImage : Image -> String -> String -> Html msg
+viewImage : Image -> String -> String -> Html Msg
 viewImage image scale opacity =
-    div
-        [ style "background-image" ("url(" ++ image.url ++ ")")
+    img
+        [ src image.url
+        , on "load" (Decode.succeed (OnImageLoad image.id))
         , style "opacity" opacity
-        , style "background-size" "cover"
-        , style "width" "100%"
-        , style "height" "100%"
+        , style "max-width" "100%"
+
+        -- , style "height" "100%"
         , style "transition" "opacity 1s , transform .5s"
         , style "transform" ("scale(" ++ scale ++ ")")
         ]
